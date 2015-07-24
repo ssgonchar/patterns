@@ -13,6 +13,7 @@ class ShopProduct
     private $producerFirstName;
     protected $price;
     private $discount;
+    private $id;
 
     function __construct($title, $firstName,
                          $mainName, $price) {
@@ -56,6 +57,44 @@ class ShopProduct
         $base .= "{$this->producerFirstName} )";
 
         return $base;
+    }
+
+    function setId( $id ){
+        $this->id = $id;
+    }
+
+    public static function getInstance($id, PDO $pdo){
+        $stmt = $pdo->prepare("select * from products WHERE id = ?");
+        $result = $stmt->execute(array($id));
+        $row = $stmt->fetch();
+        if(empty($row)) {return null;}
+        if($row['type'] == "book"){
+            $product = new BookProduct(
+                $row['title'],
+                $row['firstname'],
+                $row['mainname'],
+                $row['price'],
+                $row['numpages']
+            );
+        } elseif($row['type'] == "cd") {
+            $product = new CDProduct(
+                $row['title'],
+                $row['firstname'],
+                $row['mainname'],
+                $row['price'],
+                $row['playlength']
+            );
+        } else {
+            $product = new ShopProduct(
+                $row['title'],
+                $row['firstname'],
+                $row['mainname'],
+                $row['price']
+            );
+        }
+        $product->setId($row['id']);
+        $product->setDiscount($row['discount']);
+        return $product;
     }
 }
 
@@ -141,3 +180,8 @@ $writer = new ShopProductWriter();
 $writer->addProduct($product1);
 $writer->addProduct($product2);
 $writer->write();
+$dsn = "sqlite:patterns.db";
+$pdo = new PDO($dsn,null,null);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$obj = ShopProduct::getInstance(1,$pdo);
+var_dump($obj);
