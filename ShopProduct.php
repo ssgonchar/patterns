@@ -8,22 +8,17 @@
  */
 class ShopProduct
 {
-    public $numPages;
-    public $playLength;
     public $title;
     public $producerMainName;
     public $producerFirstName;
     public $price;
 
-    function __construct($title,
-                         $firstName, $mainName, $price,
-                         $numPages = 0, $playLength = 0) {
+    function __construct($title, $firstName,
+                         $mainName, $price) {
         $this->title = $title;
         $this->producerFirstName = $firstName;
         $this->producerMainName = $mainName;
         $this->price = $price;
-        $this->numPages = $numPages;
-        $this->playLength = $playLength;
     }
 
     function getProducer() {
@@ -39,28 +34,46 @@ class ShopProduct
     }
 }
 
-class CDProduct extends ShopProduct{
+class CDProduct extends ShopProduct
+{
+    public $playLength;
+
+    function __construct($title, $firstName,
+                         $mainName, $price, $playLength) {
+        parent::__construct($title, $firstName,
+            $mainName, $price);
+        $this->playLength = $playLength;
+    }
+
     function getPlayLength() {
         return $this->playLength;
     }
 
-    function getSummaryLine(){
-        $base = "$this->title ( {$this->producerMainName}, ";
-        $base .= "{$this->producerFirstName} )";
+    function getSummaryLine() {
+        $base = parent::getSummaryLine();
         $base .= ": Время звучания - {$this->playLength} ";
 
         return $base;
     }
 }
 
-class BookProduct extends ShopProduct {
-    function getNumberOfPages(){
+class BookProduct extends ShopProduct
+{
+    public $numPages;
+
+    function __construct($title, $firstName,
+                         $mainName, $price, $numPages) {
+        parent::__construct($title, $firstName,
+                            $mainName, $price);
+        $this->numPages = $numPages;
+    }
+
+    function getNumberOfPages() {
         return $this->numPages;
     }
 
-    function getSummaryLine(){
-        $base = "$this->title ( {$this->producerMainName}, ";
-        $base .= "{$this->producerFirstName} )";
+    function getSummaryLine() {
+        $base = parent::getSummaryLine();
         $base .= ": {$this->numPages} стр.";
 
         return $base;
