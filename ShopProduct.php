@@ -8,10 +8,11 @@
  */
 class ShopProduct
 {
-    public $title;
-    public $producerMainName;
-    public $producerFirstName;
-    public $price;
+    private $title;
+    private $producerMainName;
+    private $producerFirstName;
+    protected $price;
+    private $discount;
 
     function __construct($title, $firstName,
                          $mainName, $price) {
@@ -19,6 +20,30 @@ class ShopProduct
         $this->producerFirstName = $firstName;
         $this->producerMainName = $mainName;
         $this->price = $price;
+    }
+
+    function getProducerFirstName() {
+        return $this->producerFirstName;
+    }
+
+    function getProducerMainName() {
+        return $this->producerMainName;
+    }
+
+    function setDiscount($num) {
+        $this->discount = $num;
+    }
+
+    function getDiscount() {
+        return $this->discount;
+    }
+
+    function getTitle() {
+        return $this->title;
+    }
+
+    function getPrice() {
+        return ($this->price - $this->discount);
     }
 
     function getProducer() {
@@ -36,7 +61,7 @@ class ShopProduct
 
 class CDProduct extends ShopProduct
 {
-    public $playLength;
+    private $playLength;
 
     function __construct($title, $firstName,
                          $mainName, $price, $playLength) {
@@ -59,12 +84,12 @@ class CDProduct extends ShopProduct
 
 class BookProduct extends ShopProduct
 {
-    public $numPages;
+    private $numPages;
 
     function __construct($title, $firstName,
                          $mainName, $price, $numPages) {
         parent::__construct($title, $firstName,
-                            $mainName, $price);
+            $mainName, $price);
         $this->numPages = $numPages;
     }
 
@@ -78,14 +103,28 @@ class BookProduct extends ShopProduct
 
         return $base;
     }
+
+    function getPrice() {
+        return $this->price;
+    }
 }
 
 class ShopProductWriter
 {
+    private $products = array();
+
+    public function addProduct(ShopProduct $shopProduct) {
+        $this->products[] = $shopProduct;
+    }
+
     public function write(ShopProduct $shopProduct) {
-        $str = "{$shopProduct->title}: "
-            . $shopProduct->getProducer()
-            . " ({$shopProduct->price})\n";
+        $str = "";
+
+        foreach ($this->products as $shopProduct) {
+            $str = "{$shopProduct->title}: "
+                . $shopProduct->getProducer()
+                . " ({$shopProduct->getPrice()})\n";
+        }
 
         print $str;
     }
