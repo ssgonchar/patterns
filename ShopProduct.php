@@ -117,22 +117,27 @@ class ShopProductWriter
         $this->products[] = $shopProduct;
     }
 
-    public function write(ShopProduct $shopProduct) {
+    /**
+     *
+     */
+    public function write() {
         $str = "";
 
         foreach ($this->products as $shopProduct) {
-            $str = "{$shopProduct->title}: "
-                . $shopProduct->getProducer()
-                . " ({$shopProduct->getPrice()})\n";
+            $str .= $shopProduct->getSummaryLine();
         }
 
         print $str;
     }
 }
 
-$product1 = new ShopProduct('Собачье сердце',
-    'Михаил', 'Булгаков', 5.99);
-$writer = new ShopProductWriter();
-$writer->write($product1);
+$product1 = new BookProduct('Собачье сердце',
+    'Михаил', 'Булгаков', 5.99, 600);
 
-//print "Автор: {$product1->getProducer()}\n";
+$product2 = new BookProduct('Паттерны проектирования',
+    'Мэтт', 'Зандстра', 8.96, 528);
+
+$writer = new ShopProductWriter();
+$writer->addProduct($product1);
+$writer->addProduct($product2);
+$writer->write();
