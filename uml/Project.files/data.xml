@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="7" Name="Class diagram" NameU="Class diagram">
+			<Layer IX="0">
+				<Name>Соединительная линия</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="358" UniqueID="{E51D3F1D-0B9C-4E92-99BE-447A5000D508}" Name="Класс" NameU="Class" Master="8">
+					<Text>Report</Text>
+					<XForm>
+						<PinX Unit="MM">1.948818897637796</PinX>
+						<PinY Unit="MM">6.646887092773220</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="361" UniqueID="{C83827E0-2AF5-49C4-A709-6418DB2E1F94}" Name="Sheet.361" NameU="Sheet.361">
+					<Text>&lt;&lt;Стереотип&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">1.948818897637796</PinX>
+						<PinY Unit="MM">7.090690196045132</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="362" UniqueID="{0091FA1D-4BB3-48B7-A445-59D4D6B5266F}" Name="Sheet.362" NameU="Sheet.362">
+					<Text>параметр</Text>
+					<XForm>
+						<PinX Unit="MM">3.110236220472442</PinX>
+						<PinY Unit="MM">7.090690196045132</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="363" UniqueID="{6CD9B4CF-F9D1-409D-AD4F-A79E3D10222C}" Name="Член" NameU="Member" Master="9">
+					<XForm>
+						<PinX Unit="MM">1.948818897637796</PinX>
+						<PinY Unit="MM">6.531824146981624</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="364" UniqueID="{6F0177A3-569C-445A-BE60-9B3E79ACC9F4}" Name="Разделитель" NameU="Separator" Master="10">
+					<XForm>
+						<PinX Unit="MM">1.948818897637796</PinX>
+						<PinY Unit="MM">6.428805774278210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="365" UniqueID="{D22837E1-8B9C-4208-8907-FB92CE47E090}" Name="Член.365" NameU="Member.365" Master="9">
+					<XForm>
+						<PinX Unit="MM">1.948818897637796</PinX>
+						<PinY Unit="MM">6.325787401574798</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="366" UniqueID="{A7D073A7-9E15-474F-9E45-2050A037D0B5}" Name="Класс.366" NameU="Class.366" Master="8">
+					<Text>ShopProductWriter</Text>
+					<XForm>
+						<PinX Unit="MM">3.765748031496063</PinX>
+						<PinY Unit="MM">5.525123906771171</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="370" UniqueID="{18FFA370-CC66-4878-9DAE-D8FA5B2D0B81}" Name="Sheet.370" NameU="Sheet.370">
+					<Text>параметр</Text>
+					<XForm>
+						<PinX Unit="MM">4.927165354330709</PinX>
+						<PinY Unit="MM">5.968952264356231</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="371" UniqueID="{8A9C3F12-939E-4BBD-8FC8-37D9AFC0F2FF}" Name="Член.371" NameU="Member.371" Master="9">
+					<XForm>
+						<PinX Unit="MM">3.765748031496063</PinX>
+						<PinY Unit="MM">5.410086215292724</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="372" UniqueID="{8B8CFE9A-1D35-4E51-B10B-03144D232D31}" Name="Разделитель.372" NameU="Separator.372" Master="10">
+					<XForm>
+						<PinX Unit="MM">3.765748031496063</PinX>
+						<PinY Unit="MM">5.307067842589314</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="373" UniqueID="{6F358F22-5F2C-4227-B52F-C779F17164EF}" Name="Член.373" NameU="Member.373" Master="9">
+					<Text>+addProduct()</Text>
+					<XForm>
+						<PinX Unit="MM">3.765748031496063</PinX>
+						<PinY Unit="MM">5.204024215572753</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="374" UniqueID="{6B4E7CD3-A548-4DE4-955D-EA0BBE69CEF2}" Name="Зависимость" NameU="Dependency" Master="32">
+					<XForm>
+						<PinX Unit="MM">2.168307086614174</PinX>
+						<PinY Unit="MM">5.976964840524690</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="375" UniqueID="{2BDC03B4-0413-4AEC-972C-E6A3E0346645}" Name="Sheet.375" NameU="Sheet.375">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="MM">1.919990824919936</PinX>
+						<PinY Unit="MM">6.336116020558267</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="376" UniqueID="{4DADA004-3028-4D0B-8101-030F0B4163CE}" Name="Sheet.376" NameU="Sheet.376">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="MM">1.780796576654867</PinX>
+						<PinY Unit="MM">6.336116020558267</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="377" UniqueID="{A26B3976-5603-482E-9573-3AA8E6A96BF7}" Name="Sheet.377" NameU="Sheet.377">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="MM">2.393530718721002</PinX>
+						<PinY Unit="MM">5.594721030903704</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="378" UniqueID="{2EE82F11-557D-41F9-9307-DBAA7E693410}" Name="Sheet.378" NameU="Sheet.378">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="MM">2.393530718721002</PinX>
+						<PinY Unit="MM">5.455526782638637</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="403" UniqueID="{3B858AF9-F09A-4FC2-9250-535E0C874D52}" Name="Класс.403" NameU="Class.403" Master="8">
+					<Text>ShopProduct</Text>
+					<XForm>
+						<PinX Unit="MM">7.309055118110235</PinX>
+						<PinY Unit="MM">5.378053318635756</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="406" UniqueID="{EF10AE8E-1FB4-45CD-88C0-20690FC33944}" Name="Sheet.406" NameU="Sheet.406">
+					<Text>&lt;&lt;Стереотип&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">7.309055118110235</PinX>
+						<PinY Unit="MM">5.821906930533968</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="407" UniqueID="{3DC906B6-781B-4600-B4B2-E3D0AA228219}" Name="Sheet.407" NameU="Sheet.407">
+					<Text>параметр</Text>
+					<XForm>
+						<PinX Unit="MM">8.470472440944881</PinX>
+						<PinY Unit="MM">5.821906930533968</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="408" UniqueID="{193D44B2-BFA0-469C-A291-582F023D3C1E}" Name="Член.408" NameU="Member.408" Master="9">
+					<Text>-имя участника</Text>
+					<XForm>
+						<PinX Unit="MM">7.309055118110232</PinX>
+						<PinY Unit="MM">5.263015627157310</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="409" UniqueID="{F54C97B7-BDF8-4AE7-8E1B-324CC1856984}" Name="Разделитель.409" NameU="Separator.409" Master="10">
+					<XForm>
+						<PinX Unit="MM">7.309055118110235</PinX>
+						<PinY Unit="MM">5.159972000140746</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="410" UniqueID="{E7DC6726-CEAE-4D81-BC65-A082C82C5912}" Name="Член.410" NameU="Member.410" Master="9">
+					<Text>-имя участника</Text>
+					<XForm>
+						<PinX Unit="MM">7.309055118110235</PinX>
+						<PinY Unit="MM">5.056928373124185</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="420" UniqueID="{1AC13754-B5DB-4D99-92D4-72B34DAC8531}" Name="Класс.420" NameU="Class.420" Master="8">
+					<Text>XmlWriter</Text>
+					<XForm>
+						<PinX Unit="MM">2.820866141732278</PinX>
+						<PinY Unit="MM">3.560929087523879</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="423" UniqueID="{04CE31AC-98F3-4CE7-A7DC-707899B7CB99}" Name="Sheet.423" NameU="Sheet.423">
+					<Text>&lt;&lt;Стереотип&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">2.820866141732278</PinX>
+						<PinY Unit="MM">4.004732190795790</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="424" UniqueID="{87BB91B3-D21C-4D03-942B-1D099E2F047B}" Name="Sheet.424" NameU="Sheet.424">
+					<Text>параметр</Text>
+					<XForm>
+						<PinX Unit="MM">3.982283464566924</PinX>
+						<PinY Unit="MM">4.004732190795790</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="425" UniqueID="{07BA4D4E-02D9-4095-82BD-E8ED65B3B13C}" Name="Член.425" NameU="Member.425" Master="9">
+					<XForm>
+						<PinX Unit="MM">2.820866141732273</PinX>
+						<PinY Unit="MM">3.445866141732282</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="426" UniqueID="{4198EB8C-06BF-44D5-AF52-64B92D992C20}" Name="Разделитель.426" NameU="Separator.426" Master="10">
+					<XForm>
+						<PinX Unit="MM">2.820866141732273</PinX>
+						<PinY Unit="MM">3.342847769028872</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="427" UniqueID="{92291E5B-682C-40E7-8007-34D2B7354B62}" Name="Член.427" NameU="Member.427" Master="9">
+					<XForm>
+						<PinX Unit="MM">2.820866141732273</PinX>
+						<PinY Unit="MM">3.239829396325460</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="428" UniqueID="{61229221-C63B-4C35-9226-C4EA4173926B}" Name="Класс.428" NameU="Class.428" Master="8">
+					<Text>TextWriter</Text>
+					<XForm>
+						<PinX Unit="MM">5.635826771653544</PinX>
+						<PinY Unit="MM">3.600299166264039</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="431" UniqueID="{08021471-71A9-42E5-A98C-711E6F8CE9CA}" Name="Sheet.431" NameU="Sheet.431">
+					<Text>&lt;&lt;Стереотип&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">5.635826771653544</PinX>
+						<PinY Unit="MM">4.044102269535950</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="432" UniqueID="{E6D3C04F-12AE-4DD4-99E4-145FB91C150A}" Name="Sheet.432" NameU="Sheet.432">
+					<Text>параметр</Text>
+					<XForm>
+						<PinX Unit="MM">6.797244094488191</PinX>
+						<PinY Unit="MM">4.044102269535950</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="433" UniqueID="{80C6741D-3A23-40D5-8D1C-49E4A425CEDE}" Name="Член.433" NameU="Member.433" Master="9">
+					<XForm>
+						<PinX Unit="MM">5.635826771653544</PinX>
+						<PinY Unit="MM">3.485236220472429</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="434" UniqueID="{68DAC9C7-A2B0-4FF3-B6B9-C63BF14C98F3}" Name="Разделитель.434" NameU="Separator.434" Master="10">
+					<XForm>
+						<PinX Unit="MM">5.635826771653544</PinX>
+						<PinY Unit="MM">3.382217847769017</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="435" UniqueID="{D9FE4231-03DA-4404-9077-64CE09F8B9C4}" Name="Член.435" NameU="Member.435" Master="9">
+					<XForm>
+						<PinX Unit="MM">5.635826771653544</PinX>
+						<PinY Unit="MM">3.279199475065606</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="436" UniqueID="{DE50C756-5A4F-4E26-8D55-4B24A2A60E9F}" Name="Связь" NameU="Association" Master="15">
+					<XForm>
+						<PinX Unit="MM">5.537401574803149</PinX>
+						<PinY Unit="MM">5.451588612703463</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="438" UniqueID="{FC6B2E27-92AD-48AD-B612-269AEB2E06FE}" Name="Sheet.438" NameU="Sheet.438">
+					<Text>*</Text>
+					<XForm>
+						<PinX Unit="MM">5.956216118136836</PinX>
+						<PinY Unit="MM">5.459377584722083</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="440" UniqueID="{0C396095-9384-42BE-B1B2-98DE35F46BC8}" Name="Sheet.440" NameU="Sheet.440">
+					<Text>1</Text>
+					<XForm>
+						<PinX Unit="MM">5.139157577343036</PinX>
+						<PinY Unit="MM">5.581465509339862</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="452" UniqueID="{E621BC83-7C30-426E-8C9D-556F690ECF52}" Name="Класс.452" NameU="Class.452" Master="8">
+					<Text>CDProduct</Text>
+					<XForm>
+						<PinX Unit="MM">7.309055118110233</PinX>
+						<PinY Unit="MM">1.439727080455123</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="455" UniqueID="{B826BF8B-930A-4427-84A8-118F8E48C7CB}" Name="Sheet.455" NameU="Sheet.455">
+					<Text>&lt;&lt;Стереотип&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">7.309055118110233</PinX>
+						<PinY Unit="MM">1.883530183727034</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="456" UniqueID="{AEF2546C-039A-4FAB-A765-13A5A7B05A3F}" Name="Sheet.456" NameU="Sheet.456">
+					<Text>параметр</Text>
+					<XForm>
+						<PinX Unit="MM">8.470472440944878</PinX>
+						<PinY Unit="MM">1.883530183727034</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="457" UniqueID="{05F5D020-A8EB-4B10-9B61-F4D57DD4E744}" Name="Член.457" NameU="Member.457" Master="9">
+					<XForm>
+						<PinX Unit="MM">7.309055118110232</PinX>
+						<PinY Unit="MM">1.324664134663527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="458" UniqueID="{C01A6362-7F5D-4683-9AD9-E75E569ED227}" Name="Разделитель.458" NameU="Separator.458" Master="10">
+					<XForm>
+						<PinX Unit="MM">7.309055118110232</PinX>
+						<PinY Unit="MM">1.221645761960117</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="459" UniqueID="{397619A9-3AEA-4432-8319-3D4D4A945AE0}" Name="Член.459" NameU="Member.459" Master="9">
+					<XForm>
+						<PinX Unit="MM">7.309055118110232</PinX>
+						<PinY Unit="MM">1.118627389256703</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="460" UniqueID="{14AAF46F-5052-46CD-8AFC-B4C4B02CC072}" Name="Класс.460" NameU="Class.460" Master="8">
+					<Text>BookProduct</Text>
+					<XForm>
+						<PinX Unit="MM">10.163385826771654</PinX>
+						<PinY Unit="MM">1.439727080455123</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="463" UniqueID="{31CB75EE-28D3-4CB2-8DB4-C3E45AFAC99A}" Name="Sheet.463" NameU="Sheet.463">
+					<Text>&lt;&lt;Стереотип&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">10.163385826771654</PinX>
+						<PinY Unit="MM">1.883530183727034</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="464" UniqueID="{56B8AC36-4A0C-44AB-83C1-215ACA6239CF}" Name="Sheet.464" NameU="Sheet.464">
+					<Text>параметр</Text>
+					<XForm>
+						<PinX Unit="MM">11.324803149606300</PinX>
+						<PinY Unit="MM">1.883530183727034</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="465" UniqueID="{FC44AA40-1479-4F61-BF52-A1FE349C3AF9}" Name="Член.465" NameU="Member.465" Master="9">
+					<XForm>
+						<PinX Unit="MM">10.163385826771657</PinX>
+						<PinY Unit="MM">1.324664134663527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="466" UniqueID="{8E9FB157-1A04-420B-BEB2-5B3FC627570F}" Name="Разделитель.466" NameU="Separator.466" Master="10">
+					<XForm>
+						<PinX Unit="MM">10.163385826771654</PinX>
+						<PinY Unit="MM">1.221645761960113</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="467" UniqueID="{C003762F-821B-4DD8-910B-265085EE6D3E}" Name="Член.467" NameU="Member.467" Master="9">
+					<XForm>
+						<PinX Unit="MM">10.163385826771654</PinX>
+						<PinY Unit="MM">1.118627389256703</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="473" UniqueID="{9461FED8-686F-4AF9-AD6B-E043C3674E0D}" Name="Наследование.473" NameU="Inheritance.473" Master="37">
+					<XForm>
+						<PinX Unit="MM">7.309055118110234</PinX>
+						<PinY Unit="MM">3.408864945232288</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="474" UniqueID="{B574DD5A-05F1-43B1-9E78-0308FC261BB2}" Name="Sheet.474" NameU="Sheet.474">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="MM">7.239457993977702</PinX>
+						<PinY Unit="MM">1.998887350704725</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="475" UniqueID="{0AF78129-6F13-43DB-81DA-2DBDAF03C21F}" Name="Sheet.475" NameU="Sheet.475">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="MM">7.378652242242770</PinX>
+						<PinY Unit="MM">1.998887350704722</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="476" UniqueID="{2EDE5E51-4166-472C-A8D5-69812325ADAA}" Name="Sheet.476" NameU="Sheet.476">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="MM">7.239457993977701</PinX>
+						<PinY Unit="MM">4.818842539759854</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="477" UniqueID="{3A833427-F40C-411C-AA94-F3F1A2CEC6AE}" Name="Sheet.477" NameU="Sheet.477">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="MM">7.378652242242768</PinX>
+						<PinY Unit="MM">4.818842539759854</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="478" UniqueID="{80C2184A-9BD0-438A-8A5C-C45252A1BE37}" Name="Наследование.478" NameU="Inheritance.478" Master="37">
+					<XForm>
+						<PinX Unit="MM">8.736220472440944</PinX>
+						<PinY Unit="MM">3.408864945232288</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="479" UniqueID="{54913726-AF13-4C09-95A1-C19F3F64DA2A}" Name="Sheet.479" NameU="Sheet.479">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="MM">10.093788702639118</PinX>
+						<PinY Unit="MM">2.041702311334637</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="480" UniqueID="{3199ECDB-8540-4908-87E2-AC0F56AB2D03}" Name="Sheet.480" NameU="Sheet.480">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="MM">10.232982950904185</PinX>
+						<PinY Unit="MM">2.041702311334637</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="481" UniqueID="{5F6C93C3-5C46-48ED-A35D-1BB2A0DFEAAA}" Name="Sheet.481" NameU="Sheet.481">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="MM">7.239457993977702</PinX>
+						<PinY Unit="MM">4.776027579129923</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="482" UniqueID="{A8DCAE7E-52C2-477B-8640-120EB9A9B944}" Name="Sheet.482" NameU="Sheet.482">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="MM">7.378652242242769</PinX>
+						<PinY Unit="MM">4.776027579129923</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="483" UniqueID="{5DF68211-BCB8-47FC-A5AF-D6856D3BA688}" Name="Наследование.483" NameU="Inheritance.483" Master="37">
+					<XForm>
+						<PinX Unit="MM">4.721948568897638</PinX>
+						<PinY Unit="MM">4.562698909361030</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="484" UniqueID="{1F2EEEFD-C4A5-42BA-8E64-99C81AC4D12B}" Name="Sheet.484" NameU="Sheet.484">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="MM">5.074103663269040</PinX>
+						<PinY Unit="MM">4.141909859418350</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="485" UniqueID="{41479A9F-E0E6-469D-8D29-BE97C72E4490}" Name="Sheet.485" NameU="Sheet.485">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="MM">5.213297911534108</PinX>
+						<PinY Unit="MM">4.141909859418350</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="486" UniqueID="{9B7A24D6-A23C-4742-96FA-67FB8B44DE3B}" Name="Sheet.486" NameU="Sheet.486">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="MM">4.230599226261167</PinX>
+						<PinY Unit="MM">4.983487959303711</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="487" UniqueID="{A766AA1D-FCAC-4F6A-84C7-CBBE04107632}" Name="Sheet.487" NameU="Sheet.487">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="MM">4.369793474526235</PinX>
+						<PinY Unit="MM">4.983487959303711</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="520" UniqueID="{B127463A-A6AD-4950-8F82-05C77A56A15F}" Name="Наследование" NameU="Inheritance" Master="37">
+					<XForm>
+						<PinX Unit="MM">3.187992125984249</PinX>
+						<PinY Unit="MM">4.543013869990950</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="521" UniqueID="{71ED85BE-E6EC-4E2E-9F41-427DD68448EF}" Name="Sheet.521" NameU="Sheet.521">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="MM">2.751269017599744</PinX>
+						<PinY Unit="MM">4.101491544831738</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="522" UniqueID="{E01FA463-DA01-426B-B93B-D6E36428313E}" Name="Sheet.522" NameU="Sheet.522">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="MM">2.890463265864812</PinX>
+						<PinY Unit="MM">4.101491544831738</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="523" UniqueID="{6925432A-0138-4747-B6C6-630C743EE0C6}" Name="Sheet.523" NameU="Sheet.523">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="MM">3.485520986103687</PinX>
+						<PinY Unit="MM">4.984536195150162</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="524" UniqueID="{553F426C-79ED-4150-A4DF-42A1AFC2EE1E}" Name="Sheet.524" NameU="Sheet.524">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="MM">3.624715234368755</PinX>
+						<PinY Unit="MM">4.984536195150162</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="401" UniqueID="{FC39DFC1-C448-45ED-9659-2A5241D5A6B2}" Name="Заметка" NameU="Note" Master="33">
+					<Text>$writer-&gt;addProduct( $products );
+$writer-&gt;write();</Text>
+					<XForm>
+						<PinX Unit="MM">5.409448818897637</PinX>
+						<PinY Unit="MM">6.714238845144353</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="11" Name="Sequence diagram" NameU="Sequence diagram">
+			<Layer IX="0">
+				<Name>Соединительная линия</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="5" UniqueID="{D625FCD6-327E-4C74-BEA3-7B30DFF8C4F8}" Name="Жизненный цикл объекта" NameU="Object lifeline" Master="39">
+					<Text>Report</Text>
+					<XForm>
+						<PinX Unit="MM">1.999585578118524</PinX>
+						<PinY Unit="MM">6.476377952755905</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{AC447B61-75F0-41AC-8B4B-805274231C89}" Name="Жизненный цикл объекта.11" NameU="Object lifeline.11" Master="39">
+					<Text>ProductStore</Text>
+					<XForm>
+						<PinX Unit="MM">4.574388727724825</PinX>
+						<PinY Unit="MM">6.476377952755905</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{AFF8A949-7014-416B-BB60-45C4A81B1471}" Name="Жизненный цикл объекта.17" NameU="Object lifeline.17" Master="39">
+					<Text>ShopProductWriter</Text>
+					<XForm>
+						<PinX Unit="MM">7.149191877331126</PinX>
+						<PinY Unit="MM">6.476377952755905</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{6CBAB4E8-31B1-494A-A79D-6D396935FEFB}" Name="Жизненный цикл объекта.23" NameU="Object lifeline.23" Master="39">
+					<Text>ShopProduct</Text>
+					<XForm>
+						<PinX Unit="MM">9.723995026937429</PinX>
+						<PinY Unit="MM">6.476377952755905</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="29" UniqueID="{5A7F016E-6BBF-46BD-86CF-4C9778E3793F}" Name="Активация" NameU="Activation" Master="40">
+					<XForm>
+						<PinX Unit="MM">1.999585578118524</PinX>
+						<PinY Unit="MM">4.409448818897637</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{1C8F2FEA-DE90-4F5B-9F0D-74F6B036C28A}" Name="Активация.31" NameU="Activation.31" Master="40">
+					<XForm>
+						<PinX Unit="MM">4.574388727724823</PinX>
+						<PinY Unit="MM">5.570866141732283</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{B432E08D-BB3B-4909-9CB5-5693838E42F1}" Name="Активация.32" NameU="Activation.32" Master="40">
+					<XForm>
+						<PinX Unit="MM">7.149191877331126</PinX>
+						<PinY Unit="MM">4.527559055118111</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{B0936DD3-B6E1-47C6-89C4-D4F3E5250EAA}" Name="Активация.33" NameU="Activation.33" Master="40">
+					<XForm>
+						<PinX Unit="MM">9.723995026937427</PinX>
+						<PinY Unit="MM">4.035433070866142</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="34" UniqueID="{CE3224CC-E007-4C84-8DBA-0A5E69D9069E}" Name="Сообщение" NameU="Message" Master="41">
+					<Text>getProduts()</Text>
+					<XForm>
+						<PinX Unit="MM">3.316514711976793</PinX>
+						<PinY Unit="MM">5.590551181102361</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="35" UniqueID="{8C36A031-0598-42C8-9743-7D2EAEF2CF7E}" Name="Сообщение.35" NameU="Message.35" Master="41">
+					<Text>addProducts()</Text>
+					<XForm>
+						<PinX Unit="MM">4.603916286779944</PinX>
+						<PinY Unit="MM">5.098425196850394</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="36" UniqueID="{F70E1D86-5B47-4C13-9EF9-6DEB1D8E265E}" Name="Сообщение.36" NameU="Message.36" Master="41">
+					<Text>write()</Text>
+					<XForm>
+						<PinX Unit="MM">4.603916286779944</PinX>
+						<PinY Unit="MM">4.507874015748031</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="37" UniqueID="{BE090790-65AE-49A9-AD43-44BB9E9DF2BB}" Name="Сообщение.37" NameU="Message.37" Master="41">
+					<Text>*[for each ShopProduct]
+ getSummaryLine()</Text>
+					<XForm>
+						<PinX Unit="MM">8.495648570244516</PinX>
+						<PinY Unit="MM">4.350393700787402</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

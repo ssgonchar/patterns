@@ -1,4 +1,6 @@
 <?php
+require_once '../Report/Report.php';
+require_once '../Report/DailyOrders.php';
 
 /**
  * Created by PhpStorm.
@@ -52,7 +54,12 @@ class ShopProduct
         . "{$this->producerMainName}";
     }
 
+    /**
+     * @return string
+     */
     function getSummaryLine() {
+        $report = new DailyRequest();
+
         $base = "$this->title ( {$this->producerMainName}, ";
         $base .= "{$this->producerFirstName} )";
 
