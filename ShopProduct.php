@@ -2,7 +2,7 @@
 
 /**
  * Created by PhpStorm.
- * User: Ð§ÑƒÐ´Ð¾
+ * User: ×óäî
  * Date: 23.07.2015
  * Time: 23:12
  */
@@ -115,7 +115,7 @@ class CDProduct extends ShopProduct
 
     function getSummaryLine() {
         $base = parent::getSummaryLine();
-        $base .= ": Ð’Ñ€ÐµÐ¼Ñ Ð·Ð²ÑƒÑ‡Ð°Ð½Ð¸Ñ - {$this->playLength} ";
+        $base .= ": Âðåìÿ çâó÷àíèÿ - {$this->playLength} ";
 
         return $base;
     }
@@ -138,7 +138,7 @@ class BookProduct extends ShopProduct
 
     function getSummaryLine() {
         $base = parent::getSummaryLine();
-        $base .= ": {$this->numPages} ÑÑ‚Ñ€.";
+        $base .= ": {$this->numPages} ñòð.";
 
         return $base;
     }
@@ -170,11 +170,11 @@ class ShopProductWriter
     }
 }
 
-$product1 = new BookProduct('Ð¡Ð¾Ð±Ð°Ñ‡ÑŒÐµ ÑÐµÑ€Ð´Ñ†Ðµ',
-    'ÐœÐ¸Ñ…Ð°Ð¸Ð»', 'Ð‘ÑƒÐ»Ð³Ð°ÐºÐ¾Ð²', 5.99, 600);
+$product1 = new BookProduct('Ñîáà÷üå ñåðäöå',
+    'Ìèõàèë', 'Áóëãàêîâ', 5.99, 600);
 
-$product2 = new BookProduct('ÐŸÐ°Ñ‚Ñ‚ÐµÑ€Ð½Ñ‹ Ð¿Ñ€Ð¾ÐµÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ',
-    'ÐœÑÑ‚Ñ‚', 'Ð—Ð°Ð½Ð´ÑÑ‚Ñ€Ð°', 8.96, 528);
+$product2 = new BookProduct('Ïàòòåðíû ïðîåêòèðîâàíèÿ',
+    'Ìýòò', 'Çàíäñòðà', 8.96, 528);
 
 $writer = new ShopProductWriter();
 $writer->addProduct($product1);

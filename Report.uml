@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Report</OriginalElement>
+  <nodes>
+    <node x="119.99999999999999" y="158.0">\DailyOrders</node>
+    <node x="0.0" y="158.0">\DailyRequest</node>
+    <node x="233.0" y="158.0">\MonthlyOrders</node>
+    <node x="117.99999999999999" y="0.0">\TableBuilder</node>
+    <node x="133.0" y="79.0">\Report</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DailyOrders" target="\Report">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="\Report" target="\TableBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="\DailyRequest" target="\Report">
+      <point x="0.0" y="-14.5" />
+      <point x="50.0" y="133.0" />
+      <point x="144.16666666666666" y="133.0" />
+      <point x="-22.33333333333333" y="14.5" />
+    </edge>
+    <edge source="\MonthlyOrders" target="\Report">
+      <point x="0.0" y="-14.5" />
+      <point x="289.0" y="133.0" />
+      <point x="188.83333333333331" y="133.0" />
+      <point x="22.333333333333314" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="7.5" y="-3.0" />
+  <SelectedNodes>
+    <node>\DailyRequest</node>
+  </SelectedNodes>
+  <Categories />
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
