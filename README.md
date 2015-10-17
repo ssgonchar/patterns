@@ -1,2 +1,0 @@
-# patterns
-design patterns. practice
